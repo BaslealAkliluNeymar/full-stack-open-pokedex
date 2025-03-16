@@ -11,5 +11,7 @@ jobs:
     steps:
       - name: say_hello
         run: echo "Hello, World!"
-        run: ls
+      - name: get_directory
+        run: ls -l
+      - name: get_date
         run: date
